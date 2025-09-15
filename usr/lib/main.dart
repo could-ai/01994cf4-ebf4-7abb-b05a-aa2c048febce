@@ -94,7 +94,7 @@ class _HomeScreenState extends State<HomeScreen> {
               },
             ),
             ListTile(
-              leading: const Icon(Icons.note_outline),
+              leading: const Icon(Icons.note_outlined),
               title: const Text('Page 2'),
               onTap: () {
                  Navigator.pop(context);
